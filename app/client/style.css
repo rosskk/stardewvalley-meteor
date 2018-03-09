@@ -1,0 +1,69 @@
+.ui.borderless.topmenu.menu {
+  position: absolute;
+  color: white;
+  top: 0;
+  font-family: 'Nunito',sans-serif !important;
+  font-size: 18px;
+  height: 55px;
+  background-color: rgba(21, 71, 148, 0.8);
+  padding-left: 150px;
+  padding-right: 150px;
+  z-index:1000;
+  width: 100%;
+  margin:0 auto;
+  font-weight:700;
+
+
+}
+nav li.current-menu-item a, nav li.current_page_item a, nav .product {
+  color: #F9EC88;
+}
+
+#home {
+  color:#F9EC88 !important;
+}
+.ui.menu .item {
+  color:white !important;
+  font-weight: 700 !important;
+}
+
+
+.ui.menu .item:hover {
+  color: #F9EC88 !important;
+}
+
+.starba {
+  position:relative;
+  top:-320px;
+  z-index:0;
+
+
+}
+.title{
+
+  top:150px;
+
+  z-index:1;
+}
+body {
+  background: #fae791 !important;
+  font-size: 17px!important;
+}
+.highlight {
+  color: #ff6633;
+  font-weight: 700;
+}
+hr {
+  height: 6px !important;
+  background: url(https://stardewvalley.net/wp-content/uploads/2017/12/hrspike.png) repeat-x 0 0;
+  border: 0;
+  width: calc(100% - 250px);
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.isBulleted {
+  list-style-type: circle;
+}
+
